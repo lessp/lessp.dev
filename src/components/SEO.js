@@ -11,6 +11,7 @@ function SEO({ description, lang, meta, title }) {
             title
             description
             author
+            url
           }
         }
         file(relativePath: { eq: "tom.jpg" }) {
@@ -45,7 +46,7 @@ function SEO({ description, lang, meta, title }) {
         },
         {
           property: `og:image`,
-          content: metaImage,
+          content: site.metaData.url + metaImage,
         },
         {
           property: `og:type`,

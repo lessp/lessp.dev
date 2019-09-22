@@ -1,7 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Tom Ekander`,
+    title: `Tom Ekander - lessp`,
     description: `Software developer and musician based in Stockholm, Sweden.`,
+    url: "https://lessp.dev",
     author: `@ekander_`,
   },
   plugins: [
