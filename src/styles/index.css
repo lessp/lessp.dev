@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700&display=swap");
+
 html,
 body {
   @apply font-body font-normal m-0 p-0 text-gray-700 bg-gray-100;
