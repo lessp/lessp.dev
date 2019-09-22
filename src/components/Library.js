@@ -8,6 +8,7 @@ const Library = ({ name, description }) => (
       href={`https://github.com/lessp/${name}`}
       target="_blank"
       rel="noopener noreferrer"
+      className="hover:text-black"
     >
       <H3>{name}</H3>
     </a>

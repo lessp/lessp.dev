@@ -18,7 +18,7 @@ const Layout = ({ children }) => {
   `)
 
   return (
-    <div className="container mx-auto py-20 max-w-3xl">
+    <div className="container mx-auto py-8 md:py-20 max-w-3xl">
       <Header siteTitle={data.site.siteMetadata.title} />
       <div>
         <main>{children}</main>
