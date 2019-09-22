@@ -3,7 +3,7 @@ import Helmet from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
 
 function SEO({ description, lang, meta, title }) {
-  const { site } = useStaticQuery(
+  const { site, file } = useStaticQuery(
     graphql`
       query {
         site {
@@ -13,10 +13,14 @@ function SEO({ description, lang, meta, title }) {
             author
           }
         }
+        file(relativePath: { eq: "tom.jpg" }) {
+          publicURL
+        }
       }
     `
   )
 
+  const metaImage = "" || file.publicURL
   const metaDescription = description || site.siteMetadata.description
 
   return (
@@ -38,6 +42,10 @@ function SEO({ description, lang, meta, title }) {
         {
           property: `og:description`,
           content: metaDescription,
+        },
+        {
+          property: `og:image`,
+          content: metaImage,
         },
         {
           property: `og:type`,
