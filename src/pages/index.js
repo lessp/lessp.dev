@@ -31,6 +31,11 @@ screen or not."
         description="A small library for ReasonReact to know if an element is on
 screen or not."
       />
+      <Library
+        name="reason-fetch"
+        description="Fetch libraries and interface for ReasonML."
+        npm={false}
+      />
     </Section>
   </Layout>
 )
