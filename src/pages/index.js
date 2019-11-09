@@ -36,6 +36,11 @@ screen or not."
         description="Fetch libraries and interface for ReasonML."
         npm={false}
       />
+      <Library
+        name="revery-graphql-hooks"
+        description="A library for easy handling of GraphQL with hooks for Revery"
+        npm={false}
+      />
     </Section>
   </Layout>
 )
