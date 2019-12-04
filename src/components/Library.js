@@ -48,7 +48,7 @@ const Library = ({ name, description, npm = true }) => (
         <img
           className="mr-2"
           alt={`Github stars badge for ${name}`}
-          src={`https://img.shields.io/github/stars/lessp/${name}.svg?style=social&label=Star&maxAge=2592000)
+          src={`https://img.shields.io/github/stars/lessp/${name}.svg?style=flat-square&maxAge=2592000)
 `}
         />
       </a>
