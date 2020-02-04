@@ -20,7 +20,7 @@ const libraries = [
     npm: true,
   },
   {
-    name: "reason-fetch",
+    name: "fetch",
     description: "Fetch libraries and interface for ReasonML.",
     npm: false,
   },
