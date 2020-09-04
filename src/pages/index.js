@@ -38,7 +38,7 @@ const IndexPage = () => (
     <Section title="Greetings">
       <H1 additionalClassnames="mb-0">
         I’m <Strong>Tom Ekander</Strong>, a developer and (mostly former)
-        musician living in <Strong>Stockholm</Strong>, Sweden. 
+        musician from Sweden currently living in <Strong>Helsinki</Strong>, Finland.
         <br />
         <br />I like open-source and am currently a big fan of{" "}
         <Strong>ReasonML/OCaml</Strong>.
